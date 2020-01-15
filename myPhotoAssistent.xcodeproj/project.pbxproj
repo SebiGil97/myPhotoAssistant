@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E9DBC0B23CE53DC00FC7214 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DBC0A23CE53DC00FC7214 /* MenuViewController.swift */; };
+		9E9DBC0D23CF246300FC7214 /* NDCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DBC0C23CF246300FC7214 /* NDCalculatorViewController.swift */; };
 		9EE675D423CB565900CE1191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE675D323CB565900CE1191 /* AppDelegate.swift */; };
 		9EE675D623CB565900CE1191 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE675D523CB565900CE1191 /* SceneDelegate.swift */; };
 		9EE675D823CB565900CE1191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE675D723CB565900CE1191 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E9DBC0A23CE53DC00FC7214 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9E9DBC0C23CF246300FC7214 /* NDCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDCalculatorViewController.swift; sourceTree = "<group>"; };
 		9EE675D023CB565900CE1191 /* myPhotoAssistent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPhotoAssistent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE675D323CB565900CE1191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE675D523CB565900CE1191 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				9EE675E123CB565B00CE1191 /* LaunchScreen.storyboard */,
 				9EE675E423CB565B00CE1191 /* Info.plist */,
 				9EE675DC23CB565900CE1191 /* myPhotoAssistent.xcdatamodeld */,
+				9E9DBC0A23CE53DC00FC7214 /* MenuViewController.swift */,
+				9E9DBC0C23CF246300FC7214 /* NDCalculatorViewController.swift */,
 			);
 			path = myPhotoAssistent;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9DBC0D23CF246300FC7214 /* NDCalculatorViewController.swift in Sources */,
 				9EE675D823CB565900CE1191 /* ViewController.swift in Sources */,
+				9E9DBC0B23CE53DC00FC7214 /* MenuViewController.swift in Sources */,
 				9EE675D423CB565900CE1191 /* AppDelegate.swift in Sources */,
 				9EE675D623CB565900CE1191 /* SceneDelegate.swift in Sources */,
 				9EE675DE23CB565900CE1191 /* myPhotoAssistent.xcdatamodeld in Sources */,
@@ -289,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FT64DW4D9N;
 				INFOPLIST_FILE = myPhotoAssistent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = myPhotoAssistent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
