@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		754EED0423CFA0AD00DE763E /* SunMoonCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754EED0323CFA0AD00DE763E /* SunMoonCalc.swift */; };
+		754EED0623CFA1C300DE763E /* SunCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754EED0523CFA1C300DE763E /* SunCalcViewController.swift */; };
 		9E9DBC0B23CE53DC00FC7214 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DBC0A23CE53DC00FC7214 /* MenuViewController.swift */; };
 		9E9DBC0D23CF246300FC7214 /* NDCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DBC0C23CF246300FC7214 /* NDCalculatorViewController.swift */; };
 		9E9DBC0F23CF848200FC7214 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DBC0E23CF848200FC7214 /* TimerViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		754EED0323CFA0AD00DE763E /* SunMoonCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunMoonCalc.swift; sourceTree = "<group>"; };
+		754EED0523CFA1C300DE763E /* SunCalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunCalcViewController.swift; sourceTree = "<group>"; };
 		9E9DBC0A23CE53DC00FC7214 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		9E9DBC0C23CF246300FC7214 /* NDCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDCalculatorViewController.swift; sourceTree = "<group>"; };
 		9E9DBC0E23CF848200FC7214 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				9E9DBC0A23CE53DC00FC7214 /* MenuViewController.swift */,
 				9E9DBC0C23CF246300FC7214 /* NDCalculatorViewController.swift */,
 				9E9DBC0E23CF848200FC7214 /* TimerViewController.swift */,
+				754EED0323CFA0AD00DE763E /* SunMoonCalc.swift */,
+				754EED0523CFA1C300DE763E /* SunCalcViewController.swift */,
 			);
 			path = myPhotoAssistent;
 			sourceTree = "<group>";
@@ -150,12 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754EED0623CFA1C300DE763E /* SunCalcViewController.swift in Sources */,
 				9E9DBC0D23CF246300FC7214 /* NDCalculatorViewController.swift in Sources */,
 				9EE675D823CB565900CE1191 /* ViewController.swift in Sources */,
 				9E9DBC0B23CE53DC00FC7214 /* MenuViewController.swift in Sources */,
 				9E9DBC0F23CF848200FC7214 /* TimerViewController.swift in Sources */,
 				9EE675D423CB565900CE1191 /* AppDelegate.swift in Sources */,
 				9EE675D623CB565900CE1191 /* SceneDelegate.swift in Sources */,
+				754EED0423CFA0AD00DE763E /* SunMoonCalc.swift in Sources */,
 				9EE675DE23CB565900CE1191 /* myPhotoAssistent.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
